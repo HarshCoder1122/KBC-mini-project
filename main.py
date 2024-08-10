@@ -21,14 +21,15 @@ for i in range(0,len(question)):
     reply=int(input("Press 0 to Quit or Enter the Answer No.: "))
     if reply==0:
         break
+    money=Levels[i-1]
     if reply==questions[-1]:
         print(f"Correct Answer, You won Rs. {Levels[i]}")
 
-        if (i==3):
+        if (Levels[i]==3):
             money=10000
-        elif (i==6):
+        elif (Levels[i]==6):
             money=80000
-        elif (i==9):
+        elif (Levels[i]==9):
             money=640000
     else:
         print(f"Wrong Answer, Correct Answer is {questions[-1]}")

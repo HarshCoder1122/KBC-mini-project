@@ -21,10 +21,11 @@ questions = [
     ["Which country is known for its chocolate?", "Belgium", "Switzerland", "France", "Italy", 1],
     ["Who is the lead singer of the rock band Guns N' Roses?", "Axl Rose", "Slash", "Duff McKagan", "Matt Sorum", 1],
     ["What is the capital of China?", "Beijing", "Shanghai", "Guangzhou", "Hong Kong", 1],
+    ["Which river is known as the ‘Lifeline of Egypt’?","Nile River","Ganga river","Tsangpo","Gediz",1]
 ]
 
 # Define the levels and their corresponding amounts
-levels = [1000, 3000, 5000, 10000, 20000, 40000, 80000, 160000, 320000, 640000, 1280000, 2560000, 5120000, 10240000, 20480000, 40960000, 81920000, 163840000, 327680000, 655360000]
+levels = [1000, 3000, 5000, 10000, 20000, 40000, 80000, 160000, 320000, 640000, 1280000, 2560000, 5120000, 10240000, 20480000, 40960000, 81920000, 163840000, 327680000, 655360000,70000000]
 
 # Initialize the money won
 money_won = 0
